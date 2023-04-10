@@ -1,4 +1,6 @@
 import React from "react";
+import InsuranceLogo from "../assests/images.png";
+
 
 export default function Dashboard() {
   return (
@@ -7,7 +9,7 @@ export default function Dashboard() {
         <div class="main-header">
           <div class="logo-header" data-background-color="blue">
             <a href="index.html" class="logo">
-              <img src="img/logo.svg" alt="navbar brand" class="navbar-brand" />
+              <img src={InsuranceLogo} alt="navbar brand" class="navbar-brand" style={{"height":"50px"}} />
             </a>
             <button
               class="navbar-toggler sidenav-toggler ml-auto"
@@ -38,7 +40,7 @@ export default function Dashboard() {
             <div class="container-fluid">
               <div class="collapse" id="search-nav">
                 <form class="navbar-left navbar-form nav-search mr-md-3">
-                  <div class="input-group">
+                  <div class="input-group  mt-2">
                     <div class="input-group-prepend">
                       <button type="submit" class="btn btn-search pr-1">
                         <i class="fa fa-search search-icon"></i>
@@ -697,7 +699,25 @@ export default function Dashboard() {
               </div>
             </div>
             <div class="page-inner mt--5">
-              <div class="row mt--2">
+				<div className="row pt-5 pb-10" style={{"justify-content": "space-around"}}>
+					<div>
+						<p>Time Piece</p>
+						<img src="https://ja-assure.com/assets/img/templates/PNG/watch.png" alt="" />
+					</div>
+					<div>
+						<p>Pawnbroker</p>
+						<img src="https://ja-assure.com/assets/img/templates/PNG/calc.png" alt="" />
+					</div>
+					<div>
+						<p>Diamond</p>
+						<img src="https://ja-assure.com/assets/img/templates/PNG/diamond.png" alt="" />
+					</div>
+					<div>
+						<p>Jewellery & Gold</p>
+						<img src="https://ja-assure.com/assets/img/templates/PNG/jewelry.png" alt="" />
+					</div>
+				</div>
+              {/* <div class="row mt--2">
                 <div class="col-md-6">
                   <div class="card full-height">
                     <div class="card-body">
@@ -752,7 +772,7 @@ export default function Dashboard() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div class="row">
                 <div class="col-md-8">
                   <div class="card">
