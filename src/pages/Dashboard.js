@@ -427,12 +427,12 @@ export default function Dashboard() {
                   <span class="sidebar-mini-icon">
                     <i class="fa fa-ellipsis-h"></i>
                   </span>
-                  <h4 class="text-section">Components</h4>
+                  <h4 class="text-section">Insurance </h4>
                 </li>
                 <li class="nav-item">
                   <a data-toggle="collapse" href="#base">
                     <i class="fas fa-layer-group"></i>
-                    <p>Base</p>
+                    <p>On Going</p>
                     <span class="caret"></span>
                   </a>
                   <div class="collapse" id="base">
@@ -493,7 +493,7 @@ export default function Dashboard() {
                 <li class="nav-item">
                   <a data-toggle="collapse" href="#sidebarLayouts">
                     <i class="fas fa-th-list"></i>
-                    <p>Sidebar Layouts</p>
+                    <p>Claims</p>
                     <span class="caret"></span>
                   </a>
                   <div class="collapse" id="sidebarLayouts">
@@ -529,7 +529,7 @@ export default function Dashboard() {
                 <li class="nav-item">
                   <a data-toggle="collapse" href="#forms">
                     <i class="fas fa-pen-square"></i>
-                    <p>Forms</p>
+                    <p>Expired</p>
                     <span class="caret"></span>
                   </a>
                   <div class="collapse" id="forms">
@@ -545,7 +545,7 @@ export default function Dashboard() {
                 <li class="nav-item">
                   <a data-toggle="collapse" href="#tables">
                     <i class="fas fa-table"></i>
-                    <p>Tables</p>
+                    <p>New Insurance</p>
                     <span class="caret"></span>
                   </a>
                   <div class="collapse" id="tables">
@@ -563,113 +563,8 @@ export default function Dashboard() {
                     </ul>
                   </div>
                 </li>
-                <li class="nav-item">
-                  <a data-toggle="collapse" href="#maps">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Maps</p>
-                    <span class="caret"></span>
-                  </a>
-                  <div class="collapse" id="maps">
-                    <ul class="nav nav-collapse">
-                      <li>
-                        <a href="maps/jqvmap.html">
-                          <span class="sub-item">JQVMap</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a data-toggle="collapse" href="#charts">
-                    <i class="far fa-chart-bar"></i>
-                    <p>Charts</p>
-                    <span class="caret"></span>
-                  </a>
-                  <div class="collapse" id="charts">
-                    <ul class="nav nav-collapse">
-                      <li>
-                        <a href="charts/charts.html">
-                          <span class="sub-item">Chart Js</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="charts/sparkline.html">
-                          <span class="sub-item">Sparkline</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a href="widgets.html">
-                    <i class="fas fa-desktop"></i>
-                    <p>Widgets</p>
-                    <span class="badge badge-success">4</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a data-toggle="collapse" href="#submenu">
-                    <i class="fas fa-bars"></i>
-                    <p>Menu Levels</p>
-                    <span class="caret"></span>
-                  </a>
-                  <div class="collapse" id="submenu">
-                    <ul class="nav nav-collapse">
-                      <li>
-                        <a data-toggle="collapse" href="#subnav1">
-                          <span class="sub-item">Level 1</span>
-                          <span class="caret"></span>
-                        </a>
-                        <div class="collapse" id="subnav1">
-                          <ul class="nav nav-collapse subnav">
-                            <li>
-                              <a href="#">
-                                <span class="sub-item">Level 2</span>
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                                <span class="sub-item">Level 2</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <a data-toggle="collapse" href="#subnav2">
-                          <span class="sub-item">Level 1</span>
-                          <span class="caret"></span>
-                        </a>
-                        <div class="collapse" id="subnav2">
-                          <ul class="nav nav-collapse subnav">
-                            <li>
-                              <a href="#">
-                                <span class="sub-item">Level 2</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <span class="sub-item">Level 1</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="mx-4 mt-2">
-                  <a
-                    href="http://themekita.com/atlantis-bootstrap-dashboard.html"
-                    class="btn btn-primary btn-block"
-                  >
-                    <span class="btn-label mr-2">
-                      {" "}
-                      <i class="fa fa-heart"></i>{" "}
-                    </span>
-                    Buy Pro
-                  </a>
-                </li>
+
+            
               </ul>
             </div>
           </div>
@@ -683,16 +578,14 @@ export default function Dashboard() {
                 <div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
                   <div>
                     <h2 class="text-white pb-2 fw-bold">Dashboard</h2>
-                    <h5 class="text-white op-7 mb-2">
-                      Free Bootstrap 4 Admin Dashboard
-                    </h5>
+                   
                   </div>
                   <div class="ml-md-auto py-2 py-md-0">
                     <a href="#" class="btn btn-white btn-border btn-round mr-2">
                       Manage
                     </a>
                     <a href="#" class="btn btn-secondary btn-round">
-                      Add Customer
+                      Logout
                     </a>
                   </div>
                 </div>
@@ -815,12 +708,12 @@ export default function Dashboard() {
                 <div class="col-md-4">
                   <div class="card card-primary">
                     <div class="card-header">
-                      <div class="card-title">Daily Sales</div>
-                      <div class="card-category">March 25 - April 02</div>
+                      <div class="card-title">Monthly Premium</div>
+                      <div class="card-category">March 16 - April 15</div>
                     </div>
                     <div class="card-body pb-0">
                       <div class="mb-4 mt-2">
-                        <h1>$4,578.58</h1>
+                        <h1>$457.58</h1>
                       </div>
                       <div class="pull-in">
                         <canvas id="dailySalesChart"></canvas>
@@ -830,8 +723,8 @@ export default function Dashboard() {
                   <div class="card">
                     <div class="card-body pb-0">
                       <div class="h1 fw-bold float-right text-warning">+7%</div>
-                      <h2 class="mb-2">213</h2>
-                      <p class="text-muted">Transactions</p>
+                      <h2 class="mb-2">4</h2>
+                      <p class="text-muted">Purchases</p>
                       <div class="pull-in sparkline-fix">
                         <div id="lineChart"></div>
                       </div>
@@ -844,7 +737,7 @@ export default function Dashboard() {
                   <div class="card">
                     <div class="card-header">
                       <div class="card-head-row card-tools-still-right">
-                        <h4 class="card-title">Users Geolocation</h4>
+                        <h4 class="card-title">Premium Tracks</h4>
                         <div class="card-tools">
                           <button class="btn btn-icon btn-link btn-primary btn-xs">
                             <span class="fa fa-angle-down"></span>
