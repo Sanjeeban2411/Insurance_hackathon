@@ -49,7 +49,7 @@ function Login() {
         </div>
 
         <div className="form-container">
-          <h2>Login</h2>
+          <h2>Signup</h2>
           <form onSubmit={handleSubmit}>
             <label htmlFor="username-email">Username or Email:</label>
             <input
@@ -79,7 +79,7 @@ function Login() {
           <div className="links">
             {/* <a href="#">Forgot your password? Click here.</a> */}
             <p>
-              Not a Member Yet? <a href="/signup">Sign Up</a>
+              Already a member? <a href="/login">Sign In</a>
             </p>
           </div>
           <p>
